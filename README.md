@@ -42,7 +42,21 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
         - First-Order Logic
 - **Computation**
     - Numeral Systems
+        - Binary
+        - Hexaecimal
     - Computer Architecture
+        - Central Processing Unit
+        - Read Only Memory
+        - Random Access Memory
+        - Central Bus System
+    - Networks
+        - Topology
+        - OSI Model
+        - TCP/IP Model
+            - Ethernet
+            - IP
+            - TCP, FTP
+            - HTTP, HTTPS
     - Computational Problems
 - **Data Structures**
     - Arrays, Lists, Dictionaries
@@ -53,7 +67,7 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Heaps
     - Bloom Filters
 - **Algorithms**
-    - Asymptotic Analysis
+    - Asymptotic Analysis (Big O notation)
     - Divide & Conquer
     - Sorting
     - Searching
@@ -67,12 +81,20 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Greedy Algorithms
     - Backtracking
 - **Coding**
-    - Structured Programming
+    - Low-Level Structured Programming
+        - Memory allocation
+        - Variables and pointers
+        - Garbage collection
+        - Compilation
+    - High-Level Structured Programming
     - Clean Code
     - Object-Oriented Programming
     - SOLID
     - Functional Programming
     - KISS, YAGNI
+    - Advanced Concepts
+        - Synchronous vs Asynchronous
+        - Multithreading and Race conditions
     - Git
 - **Software Design**
     - Quality Metrics
@@ -111,13 +133,16 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Scrum
 ## Backend Development
 - **API Design**
-    - HTTP Requests
-    - HTTPS
     - REST
     - gRPC
     - GraphQL
     - Versioning
+    - Authentication
+        - JSON Web Token (JWT)
+        - OAuth 2.0
     - Security
+        SQL Injections
+    - Rate Limiting
     - Documentation
     - Idempotency
 - **Managers, Frameworks & Libraries (Python Specific)**
@@ -126,16 +151,24 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Pytest
     - FastAPI / Django / Flask
 - **Databases**
+    - Normalization
+    - Denormalization
     - Indexing
     - Transaction
     - Query Optimization
+    - Data Partitioning
     - Data Sharding
     - Replication Strategies
     - SQL
+        - SELECT FROM queries
+        - INSERT INTO queries
+        - Filter operators
+        - Join operators
     - NoSQL
+    - Object-Relational Mapping (ORM)
 - **Cloud**
     - Microsoft Azure / GCP / AWS
-    - Scaling
+    - Horizontal and Vertical Scaling
     - CAP Theorem
 - **Caching**
     - Techniques
@@ -146,7 +179,8 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
 ## DevOps
 - **Containerization & Orchestration**
     - Docker
-    - Docker-Compose
+        - Docker networking
+        - Docker-Compose
     - Kubernetes
     - ArgoCD
     - KubeFlow
@@ -158,10 +192,21 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Veracode
     - Jenkins
     - CircleCI
+- **Infrastructure**
+    - IaC
+    - Terraform
+    - Service Discovery
+    - Load Balancing
+    - Rolling updates
+    - Immutable infrastructure
+- **Deployment Strategies**
+    - Canary releases
+    - Blue-Green deployments
 - **Secrets Management**
 - **Monitoring**
     - Logging
     - Metrics
+        - SLA, SLO, SLI
         - DataDog
         - Azure Log Analytics
         - NewRelic
@@ -170,15 +215,26 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
         - Prometheus
         - Grafana
 ## Data Analysis
+- **Structured Data Formats**
+    - Comma Separated Values (CSV)
+    - Tab Separated Values (TSV)
+    - Parquet
+    - Time Series
+- **Unstructured Data Formats**
 - **Exploratory Data Analysis (EDA) & Data Cleaning**
     - Jupyter Notebooks
     - Numpy
     - Pandas
+        - Missing values
+        - Outliers
 - **Data Visualization**
     - Matplotlib
     - Seaborn
     - Streamlit / Chainlit
 ## Data Engineering
+- **Data Storages**
+    - Data Lakes
+    - Data Warehouses
 - **Extract-Transform-Load (ETL)**
     - Feature Engineering
     - Polynomial Features
@@ -186,13 +242,22 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Embedding Generation
     - Categorical Variables
 - **Data Pipelines & Processing**
+    - Data Schema Evolution
+    - Columnar Databases
+    - Batch processing
+    - Stream processing
     - Apache Airflow
-    - Apache Spark, PySpark
+    - Apache Spark
+    - Apache Flink
 ## Data Science
 - **Supervised Algorithms**
+    - Classification vs Regression
+    - Decision Trees
+    - Gradient Descent
     - Linear Regression
     - Logistic Regression
     - Random Forest
+    - Gradient Boosting
 - **Unsupervised Algorithms**
 - **Reinforcement Learning**
 - **Libraries**
@@ -201,8 +266,12 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - PyTorch
     - XGBoost
 - **Model Optimization**
+    - Imbalanced datasets
+    - Bias-variance tradeoff
     - Hyperparameter Tuning
     - Regularization
+    - Cross-validation
+    - Principal Component Analysis (PCA)
 - **Evaluation Metrics**
     - Accuracy
     - Precision
@@ -217,11 +286,19 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Kubeflow
     - Sagemaker Pipelines
 - **Orchestration**
+    - ML Pipelines
+    - Online Inference
+    - Batch Inference
+- **Feature Stores**
 - **Data Versioning**
+- **Model Versioning**
 - **Monitoring & Observability**
     - Model Drift Detection
     - Fairness Audits
+    - A/B Testing
 ## LLMOps
+- **Training**
+- **Inference**
 - **Fine-Tuning**
     - Adapters (LoRA)
     - Parameter Efficient Fine-Tuning (PEFT)
@@ -230,6 +307,16 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Quantization
     - Pruning
     - Latency Optimization
+    - Throughput
+    - Hallucinations
+    - Ethical concerns and biases
+- **LLMs**
+    - ChatGPT
+    - Llama
+    - Mistral
+    - Bert
+- **LLM Design Patterns**
+    - Retrieval-Augmented Generation (RAG)
 - **Frameworks**
     - LangChain
     - Autogen
