@@ -2,9 +2,9 @@
 
 Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backend Development, Data Analyst / Scientist / Engineer, DevOps, MLOPs and LLMOps concepts as well as books to learn about them in depth.
 
-# Concepts grouped by roles
+## Concepts grouped by roles
 
-## Software Engineering
+### Software Engineering
 - **Math**
     - Elementary Algebra
         - Linear Algebra
@@ -92,15 +92,20 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - SOLID
     - Functional Programming
     - KISS, YAGNI
+    - Git concepts and commands
+    - Git workflow strategies
+    - Debugging Tools
     - Advanced Concepts
         - Synchronous vs Asynchronous
         - Multithreading and Race conditions
-    - Git
 - **Software Design**
     - Quality Metrics
         - Coupling
         - Cohesion
         - Instability
+        - Cyclomatic Complexity
+        - Logical Lines of Code
+        - Cognitive Complexity
     - Design Patterns
         - Dependency Injection
         - Dependency Inversion
@@ -131,7 +136,10 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Extreme Programming
     - Lean Start-Up
     - Scrum
-## Backend Development
+
+-------------------------------------------------------
+
+### Backend Development
 - **API Design**
     - REST
     - gRPC
@@ -145,6 +153,9 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Rate Limiting
     - Documentation
     - Idempotency
+    - Rate Limiting
+    - Concurrency
+    - Caching
 - **Managers, Frameworks & Libraries (Python Specific)**
     - Pip & Pipenv
     - Pydantic
@@ -164,19 +175,19 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
         - INSERT INTO queries
         - Filter operators
         - Join operators
-    - NoSQL
     - Object-Relational Mapping (ORM)
+    - NoSQL Databases and Commands
 - **Cloud**
     - Microsoft Azure / GCP / AWS
     - Horizontal and Vertical Scaling
     - CAP Theorem
-- **Caching**
-    - Techniques
-    - Tools
 - **Messaging**
     - Kafka
     - RabbitMQ
-## DevOps
+
+-------------------------------------------------------
+
+### DevOps
 - **Containerization & Orchestration**
     - Docker
         - Docker networking
@@ -214,7 +225,10 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
         - OpenTelemetry
         - Prometheus
         - Grafana
-## Data Analysis
+
+-------------------------------------------------------
+
+### Data Analysis
 - **Structured Data Formats**
     - Comma Separated Values (CSV)
     - Tab Separated Values (TSV)
@@ -227,11 +241,19 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Pandas
         - Missing values
         - Outliers
+- **SQL Commands**
+    - SELECT FROM queries
+    - INSERT INTO queries
+    - Filter operators
+    - Join operators
 - **Data Visualization**
     - Matplotlib
     - Seaborn
     - Streamlit / Chainlit
-## Data Engineering
+
+-------------------------------------------------------
+
+### Data Engineering
 - **Data Storages**
     - Data Lakes
     - Data Warehouses
@@ -249,7 +271,10 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Apache Airflow
     - Apache Spark
     - Apache Flink
-## Data Science
+
+-------------------------------------------------------
+
+### Data Science
 - **Supervised Algorithms**
     - Classification vs Regression
     - Decision Trees
@@ -279,7 +304,10 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - F-1 Score
     - ROC Curves
     - Area Under Curve (AUC)
-## MLOps
+
+-------------------------------------------------------
+
+### MLOps
 - **Platforms**
     - Cloud-Native ML Services
     - MLFLow
@@ -296,7 +324,10 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Model Drift Detection
     - Fairness Audits
     - A/B Testing
-## LLMOps
+
+-------------------------------------------------------
+
+### LLMOps
 - **Training**
 - **Inference**
 - **Fine-Tuning**
@@ -322,7 +353,7 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Autogen
     - PydanticAI
 
-# Textbooks
+## Textbooks
 
 1. **"Introduction to the Theory of Computation"** by Michael Sipser
 1. **"Structure and Interpretation of Computer Programs"** by Harold Abelson and Gerald Jay Sussman
