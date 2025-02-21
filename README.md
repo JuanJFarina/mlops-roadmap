@@ -12,6 +12,11 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
         - Vector Spaces
         - Eigenvalues and Eigenvectors
     - Probability & Statistics
+        - Mean, Median and Mode
+        - Quartiles and Deciles
+        - Correlation and Causation
+        - Variance and Covariance
+        - Standard Deviation
         - Bayes Theorem
         - Gaussian Distributions
         - Hypothesis Testing
@@ -204,8 +209,10 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Jenkins
     - CircleCI
 - **Infrastructure**
-    - IaC
     - Terraform
+    - Ansible
+    - AWS CloudFormation
+    - Azure Resource Manager
     - Service Discovery
     - Load Balancing
     - Rolling updates
@@ -225,6 +232,7 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
         - OpenTelemetry
         - Prometheus
         - Grafana
+        - ELK Stack
 
 -------------------------------------------------------
 
@@ -250,6 +258,8 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Matplotlib
     - Seaborn
     - Streamlit / Chainlit
+    - Tableau
+    - PowerBI
 
 -------------------------------------------------------
 
@@ -284,6 +294,19 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Random Forest
     - Gradient Boosting
 - **Unsupervised Algorithms**
+    - Clustering
+    - K-Means
+    - K-Nearest Neighbors
+    - Principal Component Analysis (PCA)
+    - Content-Based Recommendation Systems
+    - Collaborative Filtering
+    - Hybrid Recommendation Systems
+- **Deep Learning**
+    - Artificial Neural Networks (ANNs)
+    - Convolutional Neural Networks (CNNs)
+    - Recurrent Neural Networks (RNNs)
+    - Transformer Networks
+    - Generative Adversarial Networks (GANs)
 - **Reinforcement Learning**
 - **Libraries**
     - Scikit-Learn
@@ -297,13 +320,14 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Regularization
     - Cross-validation
     - Principal Component Analysis (PCA)
-- **Evaluation Metrics**
+- **A/B Testing and Evaluation Metrics**
     - Accuracy
-    - Precision
-    - Recall
     - F-1 Score
-    - ROC Curves
-    - Area Under Curve (AUC)
+    - Confusion Matrix
+    - Precision vs Recall
+    - Precision-Recall Curves
+    - Receiver Operating Characteristic (ROC) Curves
+    - Area Under the Curve (AUC)
 
 -------------------------------------------------------
 
@@ -320,6 +344,9 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
 - **Feature Stores**
 - **Data Versioning**
 - **Model Versioning**
+    - Metadata Management
+    - Model Registry
+    - Experiment Tracking
 - **Monitoring & Observability**
     - Model Drift Detection
     - Fairness Audits
@@ -341,6 +368,7 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Throughput
     - Hallucinations
     - Ethical concerns and biases
+    - Prompt Engineering
 - **LLMs**
     - ChatGPT
     - Llama
