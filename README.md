@@ -4,8 +4,8 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
 
 ## Concepts grouped by roles
 
-### Software Engineering
-- **Math**
+### 1) SOFTWARE ENGINEERING
+- **1.1) Math**
     - Elementary Algebra
         - Linear Algebra
         - Matrix Operations
@@ -17,6 +17,7 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
         - Correlation and Causation
         - Variance and Covariance
         - Standard Deviation
+        - Statistical Significance and P-Value
         - Bayes Theorem
         - Gaussian Distributions
         - Hypothesis Testing
@@ -31,7 +32,7 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
         - Relations
         - Combinatorics
         - Graph Theory
-- **Logic**
+- **1.2) Logic**
     - Propositional Logic
         - Truth Tables
         - Logical Equivalences
@@ -45,7 +46,7 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
         - Basic Concepts
         - Quantifiers
         - First-Order Logic
-- **Computation**
+- **1.3) Computation**
     - Numeral Systems
         - Binary
         - Hexaecimal
@@ -63,15 +64,15 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
             - TCP, FTP
             - HTTP, HTTPS
     - Computational Problems
-- **Data Structures**
-    - Arrays, Lists, Dictionaries
+- **1.4) Data Structures**
+    - Arrays, Linked Lists, Dictionaries
     - Queues, Stacks
     - Sets, Hash Maps
     - Trees
     - Graphs
     - Heaps
     - Bloom Filters
-- **Algorithms**
+- **1.5) Algorithms**
     - Asymptotic Analysis (Big O notation)
     - Divide & Conquer
     - Sorting
@@ -85,7 +86,7 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
         - Tabulation
     - Greedy Algorithms
     - Backtracking
-- **Coding**
+- **1.6) Coding**
     - Low-Level Structured Programming
         - Memory allocation
         - Variables and pointers
@@ -94,6 +95,17 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - High-Level Structured Programming
     - Clean Code
     - Object-Oriented Programming
+        - Encapsulation
+        - Inheritance
+        - Polymorphism
+        - Abstraction
+        - Method Overloading
+        - Method Overriding
+        - Interfaces
+        - Abstract Classes
+        - Composition
+        - Aggregation
+        - Messaging
     - SOLID
     - Functional Programming
     - KISS, YAGNI
@@ -103,7 +115,7 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Advanced Concepts
         - Synchronous vs Asynchronous
         - Multithreading and Race conditions
-- **Software Design**
+- **1.7) Software Design**
     - Quality Metrics
         - Coupling
         - Cohesion
@@ -122,7 +134,7 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
         - Repository
         - Observer
         - Strategy
-- **Software Architecture**
+- **1.8) Software Architecture**
     - Transaction Script
     - Active Record
     - Domain Model
@@ -130,13 +142,13 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - N-Tier Architecture
     - Hexagonal Architecture (Clean Code or Ports & Adapters)
     - CQRS
-- **Testing**
+- **1.9) Testing**
     - Types
     - Strategies
     - White-Box Testing
     - Chicago TDD
     - London TDD
-- **Software Development Life-Cycle**
+- **1.10) Software Development Life-Cycle**
     - Waterfall
     - Extreme Programming
     - Lean Start-Up
@@ -144,8 +156,9 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
 
 -------------------------------------------------------
 
-### Backend Development
-- **API Design**
+### 2) BACKEND DEVELOPMENT
+- **2.1) API Design**
+    - HTTP Requests and Responses
     - REST
     - gRPC
     - GraphQL
@@ -154,19 +167,26 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
         - JSON Web Token (JWT)
         - OAuth 2.0
     - Security
-        SQL Injections
+        - SQL Injections
+        - XSS
+        - CSRF
+        - DOS
+        - DDOS
+        - Brute Force
     - Rate Limiting
     - Documentation
     - Idempotency
     - Rate Limiting
     - Concurrency
     - Caching
-- **Managers, Frameworks & Libraries (Python Specific)**
+- **2.2) Managers, Frameworks & Libraries (Python Specific)**
     - Pip & Pipenv
     - Pydantic
     - Pytest
     - FastAPI / Django / Flask
-- **Databases**
+- **2.3) Databases**
+    - ACID
+    - Eventual Consistency
     - Normalization
     - Denormalization
     - Indexing
@@ -182,33 +202,33 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
         - Join operators
     - Object-Relational Mapping (ORM)
     - NoSQL Databases and Commands
-- **Cloud**
+- **2.4) Cloud**
     - Microsoft Azure / GCP / AWS
     - Horizontal and Vertical Scaling
     - CAP Theorem
-- **Messaging**
+- **2.5) Messaging**
     - Kafka
     - RabbitMQ
 
 -------------------------------------------------------
 
-### DevOps
-- **Containerization & Orchestration**
+### 3) DEVOPS
+- **3.1) Containerization & Orchestration**
     - Docker
         - Docker networking
         - Docker-Compose
     - Kubernetes
     - ArgoCD
     - KubeFlow
-- **CI/CD**
+- **3.2) CI/CD**
     - Bash & Powershell
     - Linux Commands
-    - Azure Pipelines / Github Actions
+    - Azure Pipelines / Github Actions / Jenkins
     - SonarQube
     - Veracode
     - Jenkins
     - CircleCI
-- **Infrastructure**
+- **3.3) Infrastructure**
     - Terraform
     - Ansible
     - AWS CloudFormation
@@ -217,11 +237,12 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Load Balancing
     - Rolling updates
     - Immutable infrastructure
-- **Deployment Strategies**
+    - GitOps
+- **3.4) Deployment Strategies**
     - Canary releases
     - Blue-Green deployments
-- **Secrets Management**
-- **Monitoring**
+- **3.5) Secrets Management**
+- **3.6) Monitoring**
     - Logging
     - Metrics
         - SLA, SLO, SLI
@@ -236,25 +257,29 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
 
 -------------------------------------------------------
 
-### Data Analysis
-- **Structured Data Formats**
+### 4) DATA ANALYSIS
+- **4.1) Structured Data Formats**
     - Comma Separated Values (CSV)
     - Tab Separated Values (TSV)
     - Parquet
     - Time Series
-- **Unstructured Data Formats**
-- **Exploratory Data Analysis (EDA) & Data Cleaning**
+- **4.2) Unstructured Data Formats**
+- **4.3) Exploratory Data Analysis (EDA) & Data Cleaning**
     - Jupyter Notebooks
     - Numpy
     - Pandas
+        - Duplicates
         - Missing values
         - Outliers
-- **SQL Commands**
+        - Pivot Tables
+        - Groupby
+        - Merge
+- **4.4) SQL Commands**
     - SELECT FROM queries
     - INSERT INTO queries
     - Filter operators
     - Join operators
-- **Data Visualization**
+- **4.5) Data Visualization**
     - Matplotlib
     - Seaborn
     - Streamlit / Chainlit
@@ -263,17 +288,17 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
 
 -------------------------------------------------------
 
-### Data Engineering
-- **Data Storages**
+### 5) DATA ENGINEERING
+- **5.1) Data Storages**
     - Data Lakes
     - Data Warehouses
-- **Extract-Transform-Load (ETL)**
+- **5.2) Extract-Transform-Load (ETL)**
     - Feature Engineering
     - Polynomial Features
     - One-Shot Encoding
     - Embedding Generation
     - Categorical Variables
-- **Data Pipelines & Processing**
+- **5.3) Data Pipelines & Processing**
     - Data Schema Evolution
     - Columnar Databases
     - Batch processing
@@ -284,8 +309,8 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
 
 -------------------------------------------------------
 
-### Data Science
-- **Supervised Algorithms**
+### 6) DATA SCIENCE
+- **6.1) Supervised Algorithms**
     - Classification vs Regression
     - Decision Trees
     - Gradient Descent
@@ -293,7 +318,7 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Logistic Regression
     - Random Forest
     - Gradient Boosting
-- **Unsupervised Algorithms**
+- **6.2) Unsupervised Algorithms**
     - Clustering
     - K-Means
     - K-Nearest Neighbors
@@ -301,26 +326,26 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Content-Based Recommendation Systems
     - Collaborative Filtering
     - Hybrid Recommendation Systems
-- **Deep Learning**
+- **6.3) Deep Learning**
     - Artificial Neural Networks (ANNs)
     - Convolutional Neural Networks (CNNs)
     - Recurrent Neural Networks (RNNs)
     - Transformer Networks
     - Generative Adversarial Networks (GANs)
-- **Reinforcement Learning**
-- **Libraries**
+- **6.4) Reinforcement Learning**
+- **6.5) Libraries**
     - Scikit-Learn
     - TensorFlow, Keras
     - PyTorch
     - XGBoost
-- **Model Optimization**
+- **6.6) Model Optimization**
     - Imbalanced datasets
     - Bias-variance tradeoff
     - Hyperparameter Tuning
     - Regularization
-    - Cross-validation
+    - K-fold Cross-validation
     - Principal Component Analysis (PCA)
-- **A/B Testing and Evaluation Metrics**
+- **6.7) A/B Testing and Evaluation Metrics**
     - Accuracy
     - F-1 Score
     - Confusion Matrix
@@ -331,37 +356,40 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
 
 -------------------------------------------------------
 
-### MLOps
-- **Platforms**
+### 7) MLOPS
+- **7.1) Platforms**
     - Cloud-Native ML Services
     - MLFLow
     - Kubeflow
     - Sagemaker Pipelines
-- **Orchestration**
+- **7.2) Orchestration**
     - ML Pipelines
     - Online Inference
     - Batch Inference
-- **Feature Stores**
-- **Data Versioning**
-- **Model Versioning**
+- **7.3) Feature Stores**
+- **7.4) Data Versioning**
+- **7.5) Model Versioning**
     - Metadata Management
     - Model Registry
     - Experiment Tracking
-- **Monitoring & Observability**
+- **7.6) Monitoring & Observability**
     - Model Drift Detection
     - Fairness Audits
     - A/B Testing
 
 -------------------------------------------------------
 
-### LLMOps
-- **Training**
-- **Inference**
-- **Fine-Tuning**
+### 8) LLMOPS
+- **8.1) Training**
+- **8.2) Inference**
+- **8.3) Metrics**
+    - BLEU
+    - ROUGE
+- **8.4) Fine-Tuning**
     - Adapters (LoRA)
     - Parameter Efficient Fine-Tuning (PEFT)
     - Domain-Specific Pretraining
-- **Optimization**
+- **8.5) Optimization**
     - Quantization
     - Pruning
     - Latency Optimization
@@ -369,19 +397,31 @@ Complete roadmap to become a Senior MLOps. It covers Software Engineering, Backe
     - Hallucinations
     - Ethical concerns and biases
     - Prompt Engineering
-- **LLMs**
+    - Caching prompts-responses
+- **8.6) LLMs**
     - ChatGPT
     - Llama
     - Mistral
     - Bert
-- **LLM Design Patterns**
+- **8.7) LLM Design Patterns**
     - Retrieval-Augmented Generation (RAG)
-- **Frameworks**
+- **8.8) Frameworks & Libraries**
     - LangChain
     - Autogen
     - PydanticAI
+    - Hugging Face Transformers
 
 ## Textbooks
+
+1. **Architectural Styles and the Design of Network-based Software Architectures** *by Roy Thomas Fielding* **[1.8, 2.1]**
+1. **Clean Architecture: A Craftsman's Guide to Software Structure and Design** *by Robert C. Martin* **[1.6, 1.7, 1.8, 2.3]**
+1. **Clean Code: A Handbook of Agile Software Craftsmanship** *by Robert C. Martin* **[1.4, 1.6, 1.7, 1.9]**
+1. **CGI Programming in Perl** *by Kirrily Robert* **[2.1]**
+1. **Core PHP Programming** *by Leon Atkinson* **[1.4, 1.5, 1.6, 2.1]**
+1. **Cracking the Coding Interview** *by Gayle Laakmann McDowell* **[1.4, 1.5, 1.6]**
+1. **Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems** *by Martin Kleppmann* **[1.4, 1.8, 2.1, 2.3, 4.1, 4.2, 5.1]**
+
+-------------------------------------------------------
 
 1. **"Introduction to the Theory of Computation"** by Michael Sipser
 1. **"Structure and Interpretation of Computer Programs"** by Harold Abelson and Gerald Jay Sussman
